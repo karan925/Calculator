@@ -13,6 +13,14 @@ function multiply(a, b) {
     return a * b;
 }
 
+// Function to divide two numbers
+function divide(a, b) {
+    if (b === 0) {
+        return "Cannot divide by zero!";
+    }
+    return a / b;
+}
+
 // Function to perform calculation based on operator
 function calculate(operator, num1, num2) {
     switch (operator) {
@@ -22,6 +30,8 @@ function calculate(operator, num1, num2) {
             return subtract(num1, num2);
         case '*':
             return multiply(num1, num2);
+        case '/':
+            return divide(num1, num2);
         default:
             return "Invalid operator!";
     }
