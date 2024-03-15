@@ -42,3 +42,22 @@ const num1 = 10;
 const num2 = 5;
 const operator = '+';
 console.log(`Result: ${calculate(operator, num1, num2)}`); // Output: Result: 15
+
+// Example usage
+const num1 = 10;
+const num2 = 5;
+const operator = '-';
+console.log(`Result: ${calculate(operator, num1, num2)}`); // Output: Result: 5
+
+// Example usage
+const num1 = 10;
+const num2 = 5;
+const operator = '*';
+console.log(`Result: ${calculate(operator, num1, num2)}`); // Output: Result: 50
+
+
+// Example usage
+const num1 = 10;
+const num2 = 5;
+const operator = '/';
+console.log(`Result: ${calculate(operator, num1, num2)}`); // Output: Result: 2
